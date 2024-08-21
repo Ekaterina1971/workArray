@@ -18,6 +18,15 @@ public class Main {
             else if (costWeek1[i] < min) min = costWeek1[i];
             }
         System.out.println("Минимальная сумма трат за неделю составила " + min +". Максимальная сумма трат за неделю составила "+ max +".");
-
+        // Задача №3
+        System.out.println("Задача №3");
+        int [] costWeek2 = {44_232, 56_785, 35_896, 115_235, 71_256};
+        int sum1 = 0;
+        double result = 0;
+        for(int i = 0; i < costWeek2.length; i ++){
+            sum1 += costWeek2[i];
+        }
+        result = sum1 / costWeek2.length;
+        System.out.println("Средняя сумма трат за месяц составила " + result + " рублей.");
     }
 }
