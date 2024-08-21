@@ -8,5 +8,16 @@ public class Main {
             sum += costWeek[i];
         }
         System.out.println("Сумма трат за месяц составила " + sum + " рублей.");
+        // Задача №2
+        System.out.println("Задача №2");
+        int [] costWeek1 = {50_137, 28_900, 35_480, 41_290, 63_445};
+        int min = costWeek1[0];
+        int max = costWeek1[0];
+        for(int i =1; i < costWeek1.length; i ++) {
+            if (costWeek1[i] > max) max = costWeek1[i];
+            else if (costWeek1[i] < min) min = costWeek1[i];
+            }
+        System.out.println("Минимальная сумма трат за неделю составила " + min +". Максимальная сумма трат за неделю составила "+ max +".");
+
     }
 }
