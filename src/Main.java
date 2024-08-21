@@ -51,5 +51,14 @@ public class Main {
                 System.out.print(",");
             }
         }
+        System.out.println();
+        // Задача №4
+        System.out.println("Задача №4");
+        for (int i = 0; i < apples.length; i ++){
+            if(apples[i] % 2 != 0){
+                apples[i] = apples[i] + 1;
+            }
+        }
+        System.out.println(Arrays.toString(apples));
     }
 }
