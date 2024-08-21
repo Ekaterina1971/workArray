@@ -15,5 +15,18 @@ public class Main {
         letters [1] = 17;
         letters [2] = 5;
         System.out.println(Arrays.toString(letters));
+        // Задача №2
+        System.out.println("Задача №2");
+        System.out.print((apples[0]) + ",");
+        System.out.print((apples[1]) + ",");
+        System.out.print((apples[2]));
+        System.out.println();
+        System.out.print((fraction[0]) + ",");
+        System.out.print((fraction[1]) + ",");
+        System.out.print((fraction[2]));
+        System.out.println();
+        System.out.print((letters[0]) + ",");
+        System.out.print((letters[1]) + ",");
+        System.out.print((letters[2]));
     }
 }
