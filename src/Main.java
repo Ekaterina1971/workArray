@@ -21,7 +21,7 @@ public class Main {
         // Задача №3
         System.out.println("Задача №3");
         int[] costWeek2 = {44_232, 56_785, 35_896, 115_235, 71_256};
-        int sum1 = 0;
+        double sum1 = 0;
         double result = 0;
         for (int i = 0; i < costWeek2.length; i++) {
             sum1 += costWeek2[i];
